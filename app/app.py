@@ -5,8 +5,9 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
-    <h1>EKS + ArgoCD GitOps Project</h1>
-    <p>Application successfully deployed using GitOps!</p>
+    <h1>Symon's EKS GitOps Deployment</h1>
+    <p>Deployed successfully with GitHub Actions, Amazon ECR, Helm and ArgoCD!</p>
+    <p>Version: v2</p>
     """
 
 @app.route("/health")
