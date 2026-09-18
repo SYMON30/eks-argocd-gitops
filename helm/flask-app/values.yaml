@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: 720553586724.dkr.ecr.eu-west-3.amazonaws.com/eks-argocd-app
-  tag: "9b701d07e5e17ba0ca91e5964391eb6802584ff8"
+  tag: "d96e660a78e157461c590a249de4d275f54cf539"
   pullPolicy: IfNotPresent
 
 service:
