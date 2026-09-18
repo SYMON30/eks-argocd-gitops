@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  repository: 720553586724.dkr.ecr.eu-west-3.amazonaws.com/eks-argocd-app
+  tag: "9b701d07e5e17ba0ca91e5964391eb6802584ff8"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 5000
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 64Mi
+  limits:
+    cpu: 200m
+    memory: 128Mi
